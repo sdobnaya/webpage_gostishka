@@ -1,0 +1,37 @@
+
+@mixin btn1(){
+    width: 11.25rem;
+    height: 3rem;
+    background-color: $dt_color_vl;
+    color: $tx_color_wt;
+    font-family: $font_p;
+    font-size: 0.75rem;
+    font-weight: medium;
+    letter-spacing:1.25px;
+    border: none;
+    border-radius: 3px;
+}
+
+@mixin line(){
+    width: 4.875rem;
+    height: 0.25rem;
+    background-color:$dt_color_vl;
+    border: none;
+}
+
+@mixin h2(){
+    font-family: $font_h2;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.25px;
+}
+
+@mixin p_b(){
+    font-family:$font_p;
+    font-weight: medium;
+    font-size: 1.25rem;
+    line-height: 166%;
+    letter-spacing: 0.25px;
+    color: $tx_color_gr;
+} 
+

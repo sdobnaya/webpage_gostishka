@@ -1,0 +1,92 @@
+[class*="svg-"] { font-size: 20px; position: relative;
+
+	&:before { content: ''; display: block; }
+
+	svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+
+}
+
+.svg-arrow-icon { width: (24/20 * 1em);
+
+	&:before { padding-bottom: 24 / 24 * 100%; }
+
+}
+
+.svg-bubble-1 { width: (239/20 * 1em);
+
+	&:before { padding-bottom: 166.374 / 239 * 100%; }
+
+}
+
+.svg-bubble-2 { width: (233.889/20 * 1em);
+
+	&:before { padding-bottom: 169.612 / 233.889 * 100%; }
+
+}
+
+.svg-calendar-icon { width: (24/20 * 1em);
+
+	&:before { padding-bottom: 24 / 24 * 100%; }
+
+}
+
+.svg-empty-star { width: (19.021/20 * 1em);
+
+	&:before { padding-bottom: 18.091 / 19.021 * 100%; }
+
+}
+
+.svg-facebook-icon { width: (30/20 * 1em);
+
+	&:before { padding-bottom: 30 / 30 * 100%; }
+
+}
+
+.svg-filled-star { width: (19.022/20 * 1em);
+
+	&:before { padding-bottom: 18.09 / 19.022 * 100%; }
+
+}
+
+.svg-gostishka-pointer { width: (191/20 * 1em);
+
+	&:before { padding-bottom: 181 / 191 * 100%; }
+
+}
+
+.svg-instagram-logo { width: (30/20 * 1em);
+
+	&:before { padding-bottom: 30 / 30 * 100%; }
+
+}
+
+.svg-map-pin-icon { width: (24/20 * 1em);
+
+	&:before { padding-bottom: 24 / 24 * 100%; }
+
+}
+
+.svg-mark-icon { width: (11.758/20 * 1em);
+
+	&:before { padding-bottom: 8.041 / 11.758 * 100%; }
+
+}
+
+.svg-menu-burger { width: (23/20 * 1em);
+
+	&:before { padding-bottom: 18 / 23 * 100%; }
+
+}
+
+.svg-sign-icon { width: (14.828/20 * 1em);
+
+	&:before { padding-bottom: 8.414 / 14.828 * 100%; }
+
+}
+
+.svg-twitter-icon { width: (30/20 * 1em);
+
+	&:before { padding-bottom: 30 / 30 * 100%; }
+
+}
+

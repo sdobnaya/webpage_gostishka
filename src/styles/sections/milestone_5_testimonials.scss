@@ -1,0 +1,306 @@
+.testimonials{
+	background-color: #85C7D3;
+}
+
+.g-content-testimonials{
+	margin: 0 auto;
+	padding: 126px 135px 246px;
+
+	@media(max-width:1280px){
+		padding: 140px 80px 213px;
+	}
+
+	@media(max-width:992px){
+		padding: 50px 20px;
+	}
+}
+
+.carousel__image{
+	max-width: 470px;
+	max-height: 470px;
+	min-width: 470px;
+	min-height: 470px;
+	border-radius: 12px;
+	display: inline-block;
+	transition: linear 0.5s;
+
+	@media(max-width:1280px){
+		min-width: 244px;
+		min-height: 244px;
+		max-width: 244px;
+		max-height: 244px;
+	}
+
+	@media(max-width:992px){
+		min-width: 120px;
+		min-height: 120px;
+		max-width: 120px;
+		max-height: 120px;
+
+	}
+}
+
+.carousel-image-info{
+	display: none;
+
+
+	@media(max-width:992px){
+		display: inline-block;
+		margin-left: 20px;
+	}	
+}
+
+.carousel-image-wrap{
+	@media(max-width:992px){
+		display: flex;
+	}	
+}
+
+.carousel__item{
+	display: flex;
+
+	@media(max-width:992px){
+		flex-direction: column;
+	}
+
+}
+
+.carousel__test{
+	color: #FFFFFF;
+	font-size: 20px;
+
+	@media(max-width:992px){
+		font-size: 13px;
+		line-height: 24px;
+	}
+}
+
+.carousel-test{
+	background-color: #9dd2dc;
+	border-radius: 12px;
+	padding: 50px;
+	margin-left: 130px;
+
+	@media(max-width:1280px){
+		margin-left: 50px;
+	}
+
+	@media(max-width:992px){
+		margin-left: 0;
+		margin-top: 20px;
+		background-color: transparent;
+		padding: 0;
+	}
+}
+
+
+
+
+//позиционирование кнопок-иконок слайдера
+.carousel-inner	{
+	position: relative;
+}
+
+.carousel__wrap{
+	position: relative;
+	min-height: 560px;
+
+	@media(max-width:1280px){
+		min-height: 468px;
+	}
+
+	@media(max-width:992px){
+		min-height: auto;
+	}
+	
+}
+
+.carousel-control-next{
+	right: 0;
+	width: 55px;
+	height: 55px;
+	bottom: 0;
+	position: absolute;
+	top: auto;
+}
+
+.carousel-control-prev{
+	right: 60px;
+	width: 55px;
+	height: 55px;
+	bottom: 0;
+	position: absolute;
+	top: auto;
+	left: auto;
+}
+
+.carousel-info{
+	margin-left: 130px;
+	margin-top: 45px;
+
+	@media(max-width:1280px){
+		margin-left: 50px;
+	}
+
+	@media(max-width:992px){
+		display: none;
+	}
+}
+
+.carousel__name{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 43px;
+	color: #FFFFFF;
+}
+
+.carousel__country{
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+
+}
+
+.image-carousel__country{
+	font-weight: bold;
+	font-size: 22px;
+	color:#fff;
+	line-height: 43px;
+}
+
+.image-carousel__name{
+	font-size: 14px;
+	line-height: 30px;
+	color: #fff;
+}
+
+
+//Замена иконок слайдера
+
+
+.carousel-control-next-icon {
+	background-image: url("../../images/sprite_src/sprites/arrow-icon.svg");
+	background-color: #fff;
+	padding: 25px;
+	border-radius: 25px;
+
+	@media(max-width:992px){
+		display: none;
+	}
+
+}
+
+.carousel-control-prev-icon {
+	background-image: url("../../images/sprite_src/sprites/arrow-icon.svg");
+	transform: rotate(-180deg);
+	background-color: #fff;
+	padding: 25px;
+	border-radius: 25px;
+
+	@media(max-width:992px){
+		display: none;
+	}
+}
+
+
+
+//Звезды первый слайд
+
+.rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+	margin-left: -55px;
+	margin-top: 30px;
+
+}
+
+
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+
+//Звезды второй-третий слайд
+
+.rating-result {
+
+	width: 265px;
+
+	margin: 0 auto;
+
+	margin-left: -6px;
+	margin-top: 30px;
+
+	@media(max-width:992px){
+		margin-top: 16px;
+	}
+
+}
+
+.rating-result span {
+	padding: 0;
+	font-size: 32px;
+	margin: 0 3px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+
+	@media(max-width:992px){
+		font-size: 20px;
+	}
+
+}
+
+.rating-result > span:before {
+
+	content: '★';
+
+}
+
+.rating-result > span.active {
+
+	color: gold;
+
+	text-shadow: 1px 1px #c60;
+
+}
+
+
+.star-invis{
+	@media(max-width:992px){
+		display: none;
+	}
+}
