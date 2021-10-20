@@ -1,2 +1,4 @@
-# gostishka
+npm i
+
+gulp
 
